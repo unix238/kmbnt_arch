@@ -1,0 +1,14 @@
+server/Auth/node_modules
+server/Auth/package-lock.json
+server/Items/package-lock.json
+server/Items/node_modules
+server/News/package-lock.json
+server/News/node_modules
+server/Payment/package-lock.json
+server/Payment/node_modules
+server/monolith/package-lock.json
+server/monolith/node_modules
+server/node_modules
+server/package-lock.json
+client/node_modules
+client/package-lock.json

@@ -1,0 +1,143 @@
+.mainTitle {
+  font-size: 38px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 44px;
+  text-align: center;
+}
+
+.container {
+  min-height: 70vh;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.inputs {
+  width: 50%;
+  border-right: 1px solid #000;
+  padding-right: 5%;
+}
+
+.inputsTitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 17px;
+}
+
+.inputWide {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #505050;
+  padding: 0 10px;
+  margin-bottom: 16px;
+}
+
+.inputsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #505050;
+  margin-bottom: 16px;
+  padding: 0 10px;
+}
+
+.buttonView {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  width: 140px;
+  height: 36px;
+  background: #000000;
+  color: #ffffff;
+  line-height: 38px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.1s ease;
+}
+
+.basket {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+.promocode {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+
+.positions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 12px;
+}
+
+.itemCosts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+.basket {
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #505050;
+  font-weight: 600;
+  font-size: 14;
+}
+
+.button:hover {
+  background: #505050;
+  color: #ffffff;
+}
+
+.deliveryTitle {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.deliveryText {
+  color: #505050;
+  font-size: 14px;
+  margin-top: 10px;
+}

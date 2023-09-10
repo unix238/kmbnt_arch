@@ -1,0 +1,239 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headerTop {
+  background: #000;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 38px;
+  padding-bottom: 30px;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.headerMain {
+  background: #fff;
+  margin-top: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #505050;
+  margin-bottom: 26px;
+}
+
+.headerLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otherLinks {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.otherLinks .link {
+  margin-right: 20px;
+}
+
+.otherLinks .link:last-child {
+  margin-right: 0;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.navTopLinks {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.navLinksMainTags {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navLink {
+  margin-right: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #505050;
+  cursor: pointer;
+  user-select: none;
+}
+
+.user {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.active {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bottomLinks {
+  margin-top: 16px;
+}
+
+.activeBotttom {
+  color: #ea374c;
+}
+
+.dropDownMenu {
+  background: rgba(0, 0, 0, .9);
+  margin-top: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 236px;
+  color: #fff;
+}
+
+.content {
+  background: teal;
+  height: 800px;
+}
+
+.dropDownMenuCardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 100%;
+}
+
+.menuICON {
+  display: none;
+}
+
+.dropDownMenuCard {
+  width: 220px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 97px;
+}
+
+.cardTitle {
+  margin-top: 41px;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+
+.cardLink {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* required for opacity to work in IE */
+}
+
+@media (max-width: 440px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .bottomLinks {
+    display: none;
+  }
+
+  .navAccount {
+    display: none;
+  }
+
+  .dropDownMenuBack {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -20%;
+  }
+
+  .dropDownMenu {
+    color: #fff;
+    background: #000;
+    padding-bottom: 100px;
+  }
+
+  .dropDownMenuCardsContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cardTitle {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .dropDownMenuCard {
+    margin-bottom: 10px;
+  }
+
+  .cardLink {
+    margin-top: 15px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .menuICON {
+    display: block;
+    cursor: pointer;
+  }
+
+  .search {
+    display: none;
+  }
+}

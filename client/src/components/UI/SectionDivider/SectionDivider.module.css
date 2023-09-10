@@ -1,0 +1,35 @@
+.section__divider {
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 68px;
+  margin-bottom: 80px;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 250px;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+.divider__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: center;
+}
+.divider__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin: 16px 0;
+}

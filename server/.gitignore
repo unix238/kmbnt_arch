@@ -1,0 +1,11 @@
+Auth/node_modules
+Auth/package-lock.json
+Items/package-lock.json
+Items/node_modules
+News/package-lock.json
+News/node_modules
+Payment/package-lock.json
+Payment/node_modules
+monolith/package-lock.json
+monolith/node_modules
+node_modules/
